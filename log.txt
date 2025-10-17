@@ -1,0 +1,10 @@
+[03:47:09] replace(python, java,1) على "python is very nice , i learn python." → java,1 is very nice , i learn java,1.
+[03:47:24] replace(python, java) على "python is very nice , i learn python." → java is very nice , i learn java.
+[03:47:48] safe_index(python, java) على "python is very nice , i learn python." → 0
+[19:16:08] upper() على "............i love you .........." → ............I LOVE YOU ..........
+[19:16:27] title() على "............i love you .........." → ............I Love You ..........
+[19:17:26] translate(o,_) على "............i love you .........." → ⚠️ خطأ أثناء التنفيذ: name 'o' is not defined
+[19:18:03] translate('o','_') على "............i love you .........." → ⚠️ خطأ أثناء التنفيذ: if you give only one argument to maketrans it must be a dict
+[19:19:06] translate('o':'555') على "............i love you .........." → ⚠️ خطأ أثناء التنفيذ: invalid syntax (<string>, line 1)
+[19:19:47] translate('o':'_','e') على "............i love you .........." → ⚠️ خطأ أثناء التنفيذ: invalid syntax (<string>, line 1)
+[19:20:05] strip(.) على "............i love you .........." → i love you 
